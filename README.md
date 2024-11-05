@@ -1,10 +1,8 @@
 # task_management_system
 create a task managment system with prolog 
-
-##Exercise Instructions:
-###
-
-You are tasked with building a task management system in Prolog. The system should allow
+by: HARBANE AMEL & BENZAOUCHE NOUR ELHOUDA 
+## Exercise Instructions:
+ You are tasked with building a task management system in Prolog. The system should allow
 users to create tasks, assign tasks to users, mark tasks as completed, and display various
 task-related information.
 Exercise Instructions:
