@@ -2,8 +2,8 @@
 
 create_task(Id, Description, Assignee):-
     \+ task(Id, _, _, _),
-    assertz(task(Id, Description, Assignee, false)),/*assert :to add task to user */
-    format("Task created: ~w.", [Id]). /*display task*/
+    assertz(task(Id, Description, Assignee, false)),
+    format("Task created: ~w.", [Id]).
 
  assign_task(Id, New_assignee):-
     retract(task(Id, Description, _, Status)),
